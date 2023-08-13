@@ -1,0 +1,16 @@
+package com.example.xPrice.dto;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+public class WebsiteDto {
+
+    private int id;
+    private String name;
+    private String url;
+
+}
